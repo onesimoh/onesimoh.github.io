@@ -1,0 +1,263 @@
+<div class="bs-item z-depth-1 p-20">
+    <strong>
+        <i class="zmdi zmdi-google-drive zmdi-hc-fw"></i>&nbsp;
+        <a href="https://docs.google.com/document/d/1O2cTM4njyfBxO-n6YoejWt9s0qH8y2teRYrSLT87Ieg/edit?usp=sharing" target="_blank">Download a copy of My Resume from my Google Drive account. No log-in required.</a>
+    </strong>
+</div>
+
+<div class="pmb-block">
+    <div class="pmbb-header">
+        <h2><i class="zmdi zmdi-equalizer m-r-5"></i> Summary</h2>
+    </div>
+    <div class="pmbb-body">
+        <div class="pmbb-view">
+            Over the years I have helped many institutions in a wide range of industries, including financial, banking, technology, pharmaceuticals among 
+            others, reach their goals of adopting and incorporating Microsoft .NET and related technologies to streamline their business processes. 
+            During this time I have specialized in many aspects of the development lifecycle such as: principles of software design and architecture, 
+            data modeling, conflict resolution, requirement gathering, analysis, and prioritization testing, and deployment techniques. As an excellent 
+            team player, I have worked with small and large teams to deliver high-end scalable enterprise solutions employing a broad multitude of 
+            technologies and techniques, just to mention a few: 
+            <br /><br />
+            <ul class="clist clist-angle">
+                <li>NET Framework.</li>
+                <li>Dependency Injection, Mocking, and Unit Testing.</li>
+                <li>RESTful Service Implementation and guidelines.</li>
+                <li>SOA, real-time systems, messaging services, Message Queuing, and other Remoting technologies. </li>
+                <li>Interoperability and Enterprise Service Components. </li>
+                <li>Data modeling and object oriented design.</li>
+                <li>ORM Frameworks such as Entity Framework and NHibernate.</li>
+                <li>Application Design Patterns such as Factory, N-tier, observer (push/subscribe), Façade, and Singleton, MVVM, MVP, among others.</li>
+            </ul> 
+        </div>
+    </div>
+</div>
+
+<div class="pmb-block p-t-0">
+    <div class="pmbb-header">
+        <h2><i class="zmdi zmdi-equalizer m-r-5"></i> Education/Certifications:</h2>
+    </div>
+    <div class="pmbb-body">
+        BS – Computer Science - FAU - Boca Raton, FL
+        
+        Microsoft Certified Professional
+        <ul>
+            <li>TS: Microsoft .NET Framework ASP.NET Application Development with Ajax</li>
+            <li>Developing and Implementing Windows Applications with C#</li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+ <div class="pmb-block p-t-0">
+    <div class="pmbb-header">
+        <h2><i class="zmdi zmdi-equalizer m-r-5"></i> Experience:</h2>
+    </div>
+</div>
+
+<div class="pmb-block p-t-0">
+    <div class="card-header p-l-0 p-t-0">
+        <h2>EFG Capital, Miami FL, June 2012 - Present &nbsp;<small>Software Architect  - Lead Developer</small></h2>
+    </div>
+    <div class="pmbb-view">
+        <div>
+            Designed and implemented various systems needed for supporting internal procedures. In addition, I introduced a comprehensive set of libraries 
+            to satisfy many development aspects including Notifications, Logging, Data Access, and Security among others. 
+            As part of my responsibilities, I devised a Continuous Integration strategy based on Teamcity, Git, and Gulp and proceeded to migrate recent 
+            and other relevant projects to this platform in order to provide change management tracking as well continuous builds that could ease deployment and provide a detailed account of features and patches deployed. 
+            Moreover, I ported development to client side methodologies such as AngularJS (and previously Knockout) and introduced ORM Frameworks, in this case, Entity Framework and moved development in this direction exploiting recent features in this arena such Code-First Fluent API, and Fluent Migrations.
+        </div>
+
+        <ul class="p-t-10">
+            <li>
+                Provided the design, future development specifications, and the implementation of a general purpose messaging service for interprocess 
+                bi-directional communications between .NET Applications and the bank’s legacy system. Prior to this effort there was no mechanism that 
+                could achieve this exchange of information. The resulting solution was designed to allow flexibility in an agnostic manner supporting 
+                various communications Channels (although for this case, only File System was provided). In addition, Messages are sent along a series 
+                of event sinks which may be customized to perform any given tasks, e.g. updating the status of a Fund Transfer or receiving the details 
+                an Investment Order. <br />
+                (see Andamio.Messaging on my Github page) 
+            </li>
+            <li class="p-t-10">
+                Provided analysis that would ultimately result in the implementation a Portfolio Performance Research and Reporting Tool which 
+                provided tremendous time savings for the Asset Management Team. The legacy methodology consisted in a plethora of spreadsheets the group 
+                would use to analyze Portfolio performance as well as other metrics (e.g. Risk and Volatility) and produce client reports. 
+                I was in charge of analyzing all aspects of this process and produce a system that could effortlessly generate the same results as 
+                well as generate the client reports. The system was completely implemented in AngularJS and a Web Api backend and it was conceived as a 
+                web front end that communicated with a Windows Service, listening on TCP-IP and Net-Pipes endpoints, responsible for orchestrating the 
+                performance calculations and report generation for the Portfolios. Users could submit requests to the Performance Metrics Service to 
+                process asynchronously in a multi-threaded fashion. <br />
+                (see Threading in Andamio.Core on my Github page)
+            </li>
+            <li class="p-t-10">
+                Analyzed user requirements and provided the implementation of an Anti-Money-Laundering (AML) Tracking System to monitor various 
+                client transactions that could be potentially flagged as fraudulent. The system was implemented as a workflow consisting of various 
+                stages describing the life of the transaction. Users of the system could upload documents containing information regarding the client 
+                and also communicate with the team. Finally the users could archive all pertaining information regarding the transaction. 
+                For the archiving feature I designed a PDF generation framework based on the popular iTextSharp library. Whereas iTextSharp includes the 
+                ability to export HTML to PDF, I felt that this feature did not translate well to the rest of the iTextSharp constructs mainly in the areas 
+                related to CSS and the way in which PDFs are styled. I made the decision to provide a Framework that could generate a PDF based on an XML 
+                that more closely resembles the iTextSharp constructs. The implementation of this PDF Framework proved fruitful not only in this particular 
+                project but also in many others where archiving or real time document generation was needed. <br />
+                (see Andamio.Pdf on my Github page)
+            </li>
+            <li class="p-t-10">
+                Devised and played the role of the lead developer in the implementation of New Account Opening process that would be used by the institution 
+                to track, communicate, and catalog the new accounts. The system allows for members of several back office teams to communicate with the 
+                account officers regarding the various pending documents necessary for opening the account. The system would also help establish an audited
+                communication between the interested parties that could be tracked for individual account related forms, or negative information about the 
+                potential client, as well as other related documents about the client discovered during internal Background Search. 
+                This system would eventually replace current procedures mainly consisting of a generic help desk tool and email. The system was developed 
+                in AngularJS leveraging a Web Api backend.             
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="pmb-block p-t-10">
+    <div class="card-header p-l-0 p-t-0">
+        <h2>Citrix Corp., Ft. Lauderdale, FL – April 2009 – June 2012, Jan 2006 – May 2007 &nbsp;<small>Feature Lead - Senior Software Engineer II</small></h2>
+    </div>
+    <div class="pmbb-view">
+        <ul>
+            <li>
+                Collaborated in the development of a custom automated Packaging Tool, currently being used to produce patches for Citrix’s product line. 
+                As one of the main developers in this project I was responsible for areas related to code signing, basic Cryptography, (hashing techniques 
+                and Asymmetric encryption), file version calculation, and binary dependency calculation. The idea with this project was to streamline the 
+                steps needed to patch a product. The system is fully customizable and very capable of producing valid windows patched that are then 
+                distributed to the customers. This project was completely developed using ASP.NET leveraging AJAX techniques very heavily it also required 
+                the need of various WCF services to maintain user session state.               
+            </li>
+            <li class="p-t-10">
+                Designed and implemented a resource Discovery Tool using C# and WPF, this tool is responsible for resources mapping and management for files 
+                to be included with the next release or patch of the various Citrix Products, the tool is capable of consuming certain criteria matching parameters, 
+                including MSI File PK, platform, language, etc..  and asynchronously traverses the many network and source locations to retrieve the correct files. 
+                The tool also features conflict resolution techniques for pairing the correct files with their MSI counterparts, as well as allows the user to include 
+                symbols from the symbol stores. The tool is currently in use by members of the build team and it is considered critical in the release of 
+                Citrix product MSIs and MSPs (patches). 
+            </li>
+            <li class="p-t-10">
+                Collaborated in the implementation of the ‘Return to Integration Workflow’, which is used by the company to monitor code that gets 
+                integrated from the various branches, let’s say from the main development branch into a release (or preview) branch.  Again, as one of 
+                the main contributors in this project I was responsible for developing all enforcing rules, audit information, and approval process. 
+                Also this project relied very heavily on AJAX techniques and other Web Asynchronous methodologies to provide a modern user interface.
+            </li> 
+            <li class="p-t-10">
+                Sr. Software engineer collaborating with Eng Software Management Team in the development of a code dependency calculation and product 
+                lifecycle tool responsible for determining code affected by various changes introduced by developers. This tool was considered mission-critical 
+                for releasing any code updates and service packs to Citrix’s customers. The tool is completely developed under C#, ASP.NET 2.0 and it features 
+                a multitude of technologies including .NET Remoting, Queued Components, .NET COM+ Interop., and Windows Workflow Foundation. 
+            </li>
+            <li class="p-t-10">
+                Also collaborated with the design team in architecting and implementing various C# libraries, APIs, and utility 
+                classes to provide Data Access, Diagnostics and Security. These libraries were designed with extensibility in mind and constituted 
+                the backbone of the entire application. 
+            </li>           
+        </ul>
+    </div>
+</div>
+
+<div class="pmb-block p-t-10">
+    <div class="card-header p-l-0 p-t-0">
+        <h2>Franklin Templeton Investments, Ft. Lauderdale, FL – May 2007 –April 2009 &nbsp;<small>Software Architect - Lead Developer</small></h2>
+    </div>
+    <div class="pmbb-view">
+        <div>
+            For FTT I was responsible for leading the implementation of the new Equity Trading Blotter Platform developed using C#.NET and Windows Forms 
+            Technology, which was deployed across the globe to all FTI trading desks. The application, which was built entirely in C#, features a very 
+            dynamic and responsive user interface, achieved by employing various advanced multithreading and asynchronous techniques. The application also 
+            made extensive use of SOA and real-time services to interact with other 3rd party services. As one of the lead developers and architect, 
+            I was responsible for establishing the software patterns and development guidelines that would be carried across the different tiers, 
+            from the manner in which data was handled to how it was presented to the traders. I was also responsible for the design and implementation 
+            of many of the core features of the application including Broker Placement, and order management and creation 
+            (which is the process in which the buy/sell order is sent to the Broker) and Allocation (which is the process that distributes the purchased or sold stocks across the different accounts) 
+            to mention a few of the most prominent ones; however, I also participated either directly or indirectly by providing feedback and/or suggestions in many other 
+            aspects of the .NET Blotter initiative, for example I developed a method for Rapid Order placement based on ideas by the head trader which streamlined in 
+            great measure the way certain orders were handled.        
+        </div>
+        <div class="p-t-10">
+            In addition, I was also responsible for the design and implementation of a comprehensive and consistent programming model and a common set of 
+            low level APIs in order to model a wide range of business processes including: 
+            <ul class="clist clist-check p-t-10">            
+                <li>Multithreading.</li>
+                <li>Data access, business entity mapping and manipulation.</li>
+                <li>Debugging, diagnostics, tracing, and instrumentation.</li>
+                <li>Security.</li>
+                <li>Data Transfer and communication.</li>
+            </ul>
+            This Framework or set of APIs were carefully designed with extensibility in mind and proved very effective during the implementation the Trading Application.
+        </div>
+        <ul class="p-t-10">
+            <li>
+                I was also responsible for the design and implementation of a real-time Alerts System that sat on top of a WCF Messaging Layer and leveraged many 
+                advanced d techniques including channel callback and asynchronous method calls among others. The Alerts System would then create and route messages 
+                originated when certain criteria were met, for example, drastic price changes below or above a given threshold, broker commission changes, etc... 
+                This Alert System served as a service broker for gathering and routing messages to the interested traders which could then interact with the messages or 
+                forward them to other traders. These messages were processed in a transactional manner leveraging MS Queuing technology as well as other database related 
+                techniques in order to provide delivery guarantee.
+            </li>
+            <li class="p-t-10">
+                Also I developed and delineated a strategy to manage all integration aspects from code submission into source control to building and deploying to the 
+                various environments, including the implementation of a custom Continuous Integration Tool and introducing ClickOnce technology to deploy new updates to 
+                the trader's workstation.
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="pmb-block p-t-10">
+    <div class="card-header p-l-0 p-t-0">
+        <h2>Lloyds TSB Bank, Miami, FL – April 2004 – Jan 2006  &nbsp;<small>Software Architect - Lead Developer</small></h2>
+    </div>
+    <div class="pmbb-view">
+        <ul>
+            <li>
+                Responsible for the design and implementation of the Structure Finance Department’s core application. This application featured 
+                excel-like functionality with enhanced capabilities and customized to fit the needs of the private banking division at Lloyds Bank. 
+                This included (but not limited to) support for most of excel capabilities such as formulas, cell copy/paste re-reference, adding/removing/hiding 
+                rows and columns.<br />
+                This application was used for tracking investment progress and portfolio statistics. It allowed the portfolio managers to display and print 
+                data charts based on portfolio information, as well as produce financial reports. The application was entirely built in C#.NET using 
+                common enterprise development patterns as Decorator and Factory pattern, and featuring commonly used architectural layers. 
+                Given that the application makes extensive use of database connectivity a bottom-up approach was used starting with the implementation of 
+                stored procedures to final presentation tier, special care was given overall consistency and class design. 
+                The application also features many advanced multi-threading and synchronization techniques to keep up with the heavy flow of data while keeping the UI responsive.
+            </li>
+            <li class="p-t-10">
+                I was also responsible for design and implementation of the security and dual approval module. The security system was designed based on standard .NET security 
+                elements such as code security and role based authentication, extensive additions were needed to achieve desired results of having several layers of security: 
+                roles, rights, and permissions. These security components also provided functionality to support ‘dual-approval’, a process where data only becomes available 
+                after two different account managers have approved and reviewed the data.
+            </li>
+            <li class="p-t-10">
+                Also, implemented several procedures to create reports for the bank’s treasury department. Such reports were used to determine the bank's current and future financial status. One aspect of these reports is the complex calculations performed to obtain future profitability and statistical analysis. 
+            </li>        
+            <li class="p-t-10">
+                And, last but not least, participated in the bank’s initiative to consolidate many of the banking backend and middleware services, and other data migration tasks into a new platform based on IFLEX technology. 
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="pmb-block p-t-10">
+    <div class="card-header p-l-0 p-t-0">
+        <h2>Andrx Corp. (Watson), Weston, FL - July 2001 – March 2004  &nbsp;<small>Sr. Software Developer</small></h2>
+    </div>
+    <div class="pmbb-view">
+        <ul>
+            <li>
+                Responsible for the implementation of a Web Service Layer developed completely in C#  to handle, in a controlled environment, many customer 
+                related tasks, including order placement, order management, catalog browsing, and pricing among others. 
+            </li>
+            <li class="p-t-10">
+                In addition, implemented a pricing module and APIs (C#) used to interact with backend data to establish pricing discounts and other pricing 
+                related updates. Also developed pricing synchronization algorithm to maintain all systems and other interested parties updated of any changes in prices.
+            </li>
+            <li class="p-t-10">
+                Collaborated in the design and implementation of the front-end customer centric application in areas related to product browsing, 
+                order placement, order management, user authentication, user authorization, password retrieval, etc… This front-end and related features 
+                was completely developed in ASP.NET and C# 
+            </li>
+        </ul>
+    </div>
+</div>
+

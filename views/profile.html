@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="card" id="profile-main" data-ng-controller="profileCtrl as pctrl">
+        <div class="pm-overview c-overflow">
+            <div class="pmo-pic">
+                <div class="p-relative">
+                    <a href="">
+                        <img class="img-responsive" src="img/profile-pics/profile-pic-1.jpg" alt="">                        
+                    </a>
+                </div>
+            </div>
+
+            <div class="pmo-block pmo-contact hidden-xs">
+                <h2>Onesimo Hernandez</h2>
+                <ul>
+                    <li><i class="zmdi zmdi-email"></i> lakes121@yahoo.com</li>
+                    <li>
+                        <i class="zmdi zmdi-pin"></i>
+                        <address class="m-b-0">
+                            Miami FL, United States<br/>
+                        </address>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="pm-body clearfix">
+            <ul class="tab-nav tn-justified" data-ng-include src="'template/profile-menu.html'"></ul>
+            <data ui-view></data>
+        </div>
+    </div>
+</div>
