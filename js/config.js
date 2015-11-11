@@ -1,6 +1,6 @@
 materialAdmin
     .config(function ($stateProvider, $urlRouterProvider){
-        $urlRouterProvider.otherwise("/home");
+        $urlRouterProvider.otherwise("/pages/profile/profile-about");
 
         $stateProvider        
             //------------------------------
