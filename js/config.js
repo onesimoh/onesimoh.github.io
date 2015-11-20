@@ -34,8 +34,8 @@ materialAdmin
                 url: '/pages',
                 templateUrl: 'views/common.html'
             })
-                    
-            //Profile        
+                   
+            // Profile        
             .state ('pages.profile', {
                 url: '/profile',
                 templateUrl: 'views/profile.html'
@@ -43,5 +43,5 @@ materialAdmin
             .state ('pages.profile.profile-about', {
                 url: '/profile-about',
                 templateUrl: 'views/profile-about.html'
-            })              
+            })  
     });
